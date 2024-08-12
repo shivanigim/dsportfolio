@@ -1,5 +1,5 @@
 # Data Scientist
-5 years 
+With 5 years of experience as a Data Science professional and a strong educational background in Computer Science and an MBA, I bring a unique blend of technical expertise and business acumen. I am passionate about solving complex problems through data-driven insights, focusing on developing innovative AI and ML solutions that enhance operational efficiency and drive strategic business success
 
 #### Technical skills/Programming language: Python (NumPy, Pandas, SciPy, scikit-learn, TensorFlow), R, SQL (MySQL), PySpark, PowerBI, Tableau, Excel, AWS, Git, Jira, Natural Language Processing (NLP)
 #### Professional experience: Data Wrangling, Data Modeling, Machine Learning, Stakeholder Management, Scrum/Agile, Go-to-Market Strategy, RFP Proposals, Client Presentations
