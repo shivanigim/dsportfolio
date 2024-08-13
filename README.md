@@ -22,7 +22,8 @@ Mar 2013 - Apr 2017
 **Data Scientist Intern @ Prudential Financial**
 New York, US | May 2024 - Aug 2024
 
--Centralized Knowledge Management System: Integrated large language models (LLMs) to develop a system that enhances query handling across insurance policies and disability claims, improving operational efficiency by 30%.
+-Centralized Knowledge Management System: Integrated large language models (LLMs) to develop a system that enhances query handling across insurance policies and disability claims, improving operational efficiency by 30%
+
 -Interactive Voice Response (IVR) System: Designed and implemented an IVR system enabling natural voice conversations, leveraging multithreading and asynchronous tasks for seamless user interactions.
 
 **Senior Consultant @ Virtusa**
@@ -44,5 +45,16 @@ Noida, India | May 2017 - Jun 2019
 
 
 ## Projects
+
+
+-Recommender System for Bank Products (FinTech Industry)	April 2020 - July 2020
+•	Objective: Developed a Recommender System examining 45+ user variables, increasing customer experience and increasing cross-selling effectiveness
+•	Methodology: Combined Content-Based and Collaborative Filtering techniques to analyze user preferences based on both individual product features and collective user behavior, enhancing recommendation accuracy
+•	Results: Utilized KNN Classifier to process extensive user-item interactions, attaining 85% accuracy rate through meticulous hyperparameter tuning and algorithm optimization in a hybrid filtering framework
+
+-Natural Language Processing (NLP) Sentiment Analysis Engine (Retail Industry)	April 2020 - May 2020
+•	Objective: Implemented Natural Language Processing (NLP) techniques on 15 years of customer reviews data, deriving actionable insights to optimize marketing strategies and enhance customer satisfaction
+•	Methodology: Processed and analyzed a vast dataset comprising 668,454 reviews spanning 15 years, involving 377,059 users and 87,658 products; Applied techniques including text preprocessing, stemming, and vectorization (utilizing Bag of Words and TF-IDF) to extract sentiments comprehensively from textual data
+•	Results: Analyzed user behavior, identifying influential reviewers and trends in helpfulness, enhancing customer engagement strategies. Achieved 92% prediction accuracy 
 
 
