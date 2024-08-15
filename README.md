@@ -5,8 +5,8 @@ With 5 years of experience as a Data Science professional and a strong education
 #### Professional experience: Data Wrangling, Data Modeling, Machine Learning, Stakeholder Management, Scrum/Agile, Go-to-Market Strategy, RFP Proposals, Client Presentations
 
 ## Education
-- MS in Applied Analytics | Columbia University, New York, NY (Dec 2024)								       		
-- MBA	| Goa Institute of Management, Goa, India (May 2019 - Jun 2021)	 			        		
+- MS in Applied Analytics    | Columbia University, New York, NY (Dec 2024)								       		
+-       MBA	                 | Goa Institute of Management, Goa, India (May 2019 - Jun 2021)	 			        		
 - B.Tech in Computer Science | BBD NITM, UPTU, Lucknow, India (Mar 2013 - Apr 2017)
 
 ## Work Experience
