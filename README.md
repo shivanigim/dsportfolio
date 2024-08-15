@@ -1,6 +1,5 @@
 # Data Scientist
 
-![Shivani_Singh](/assets/Shivani_formal.jpg)
 
 With 5 years of experience as a Data Science professional and a strong educational background in Computer Science and an MBA, I bring a unique blend of technical expertise and business acumen. I am passionate about solving complex problems through data-driven insights, focusing on developing innovative AI and ML solutions that enhance operational efficiency and drive strategic business success
 
