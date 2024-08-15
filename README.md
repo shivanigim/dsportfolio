@@ -21,6 +21,7 @@ New York, US | May 2024 - Aug 2024
 Bangalore, India | Jun 2021 - Jul 2023
 
 -Clinical Trial Audit Optimization: Utilized Amazon Comprehend to automate sentiment analysis, achieving over 88% accuracy, reducing audit review time by 40%, and enhancing decision-making efficiency.
+
 -Anomaly Detection System: Developed a smart anomaly detection system for clinical trial data, reducing costs by $1.25M/year.
 Revenue Analysis: Conducted comprehensive revenue analysis and developed dashboards that led to a $3M increase in revenue for the North America and EMEA regions.
 
