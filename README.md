@@ -45,7 +45,12 @@ Noida, India | May 2017 - Jun 2019
 
 
 ## Projects
-
+-**Project Overview** This project leverages data analytics to optimize Toys "R" Us's e-commerce and marketing strategies, seamlessly integrating physical and online channels. The solution is designed to restore competitive advantage, drive short-term sales growth, and ensure long-term market stability
+-Problem Statement: Toys "R" Us experienced declining sales due to outdated e-commerce strategies and ineffective marketing, ultimately leading to bankruptcy.
+-Solution: A data-driven approach was implemented to modernize marketing, optimize e-commerce, and integrate physical and online channels. Tableau and Python were utilized for comprehensive data analysis.
+-Impact on Operations: Highlighted strategies for customer targeting and operational efficiency, leading to improved engagement and streamlined processes.
+-Financial Viability: A thorough cost-benefit analysis demonstrated strong financial returns, validating the investment as viable.
+Link : https://public.tableau.com/views/CompanyAnalysis_Dashboard/Completedashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 -Recommender System for Bank Products (FinTech Industry)	April 2020 - July 2020
 •	Objective: Developed a Recommender System examining 45+ user variables, increasing customer experience and increasing cross-selling effectiveness
@@ -56,5 +61,7 @@ Noida, India | May 2017 - Jun 2019
 •	Objective: Implemented Natural Language Processing (NLP) techniques on 15 years of customer reviews data, deriving actionable insights to optimize marketing strategies and enhance customer satisfaction
 •	Methodology: Processed and analyzed a vast dataset comprising 668,454 reviews spanning 15 years, involving 377,059 users and 87,658 products; Applied techniques including text preprocessing, stemming, and vectorization (utilizing Bag of Words and TF-IDF) to extract sentiments comprehensively from textual data
 •	Results: Analyzed user behavior, identifying influential reviewers and trends in helpfulness, enhancing customer engagement strategies. Achieved 92% prediction accuracy 
+
+
 
 
