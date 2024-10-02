@@ -193,10 +193,15 @@ body {
     width: 75%;
 }
 
+.experience-logo {
+    width: 60px;  /* Consistent logo size */
+    height: 60px;
+}
+
 .experience-logo img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+    width: 100%; /* Make the image fill the logo container */
+    height: 100%;
+    border-radius: 50%; /* Make the image circular */
     object-fit: cover;
 }
 
@@ -214,6 +219,7 @@ body {
         width: 100%;
     }
 }
+
 
 
 
