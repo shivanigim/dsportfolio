@@ -5,25 +5,23 @@
 
 <head> 
     <meta charset="UTF-8"> 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0"> 
-    <title>My Portfolio</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Shivani Singh Portfolio</title> 
     <link rel="stylesheet"
-        href= 
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity= 
-"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="styles2.css"> 
-</head> 
+</head>
+
 
 <body> 
     <!-- Navbar header section -->
     <header class="header"> 
         <nav class="navbar"> 
             <div class="logo"> 
-                <h2 class="logo-heading">Emrit Diyal</h2> 
+                <h2 class="logo-heading">Shivani Singh</h2> 
             </div> 
             <div class="hamburger" id="hamburger"> 
                 <i class="fas fa-bars hamburger-icon"></i> 
@@ -61,283 +59,163 @@
         </nav> 
     </header> 
 
-    <!-- Main hero banner -->
-    <section id="home" class="hero"> 
-        <div class="intro"> 
-            <div class="headings"> 
-                <h3 class="greet-heading">Hello, I'm</h3> 
-                <h1 class="my-heading">Emrit Diyal</h1> 
-                <h4 class="sub-heading"> 
-                    A Software Engineer with 3 years of Experience. 
-                </h4> 
-            </div> 
-            <div class="intro-buttons"> 
-                <button class="btn common-btn">Hire Me</button> 
-                <button class="btn ghost-btn">Get Resume</button> 
-            </div> 
+   <!-- Main hero banner -->
+<section id="home" class="hero"> 
+    <div class="intro"> 
+        <div class="hero-image-container">
+            <img src="assets/shivani.jpg" alt="Shivani Singh" class="hero-img">
+        </div>
+        <div class="headings"> 
+            <h3 class="greet-heading">Hello, I'm</h3> 
+            <h1 class="my-heading">Shivani Singh</h1> 
+            <h4 class="sub-heading"> 
+                A Data Scientist with 5 years of Experience.
+            </h4> 
         </div> 
-    </section> 
+        <div class="intro-buttons"> 
+            <button class="btn common-btn">
+               <a href="mailto:shivani.singh@columbia.edu">Hire Me</a>
+            </button> 
+            <button class="btn ghost-btn">
+                <a href="assets/Shivani_Singh_Resume.pdf" download>Get Resume</a>
+            </button> 
+        </div> 
+    </div> 
+</section>
+
 
     <!-- Portfolio Section -->
-    <section class="portfolio" id="portfolio"> 
-        <div class="portfolio-heading"> 
-            <h1 class="my-heading text-center">Featured Portfolio</h1> 
-        </div> 
-        <div class="portfolio-content"> 
-            <div class="my-row"> 
-                <div class="my-col"> 
-                    <div class="my-card port-card"> 
-                        <div class="image"> 
-                            <img src="./Images/voiceassistant.avif"
-                                alt="Conversational AI Voice Asssitant"> 
-                        </div> 
-                        <h3 class="greet-heading blue-text">Conversational AI Voice Asssitant</h3> 
-                        <p class="small-para blue-text">Developed for Prudential Financial, optimized insurance claims processing, expected saving $1.5M annually</p> 
+  <!-- Portfolio Section -->
+<section class="portfolio" id="portfolio"> 
+    <div class="portfolio-heading"> 
+        <h1 class="my-heading text-center">Featured Portfolio</h1> 
+    </div> 
+    <div class="portfolio-content"> 
+        <div class="my-row"> 
+            <!-- Conversational AI Voice Assistant -->
+            <div class="my-col"> 
+                <div class="my-card port-card"> 
+                    <div class="image"> 
+                        <img src="assets/voiceassistant.avif" alt="Conversational AI Voice Assistant"> 
+                    </div> 
+                    <h3 class="greet-heading blue-text">Conversational AI Voice Assistant</h3> 
+                    <p class="small-para blue-text">Developed for Prudential Financial, optimized insurance claims processing, saving $1.5M annually.</p> 
+                    <a href="https://github.com/shivanigim/voice-assistant" target="_blank" class="btn ghost-btn">View Project</a> 
+                </div>
+            </div> 
+            
+            <!-- Credit Risk Modeling -->
+            <div class="my-col"> 
+                <div class="my-card port-card"> 
+                    <div class="image">
+                        <img src="assets/SEOImage2.avif" alt="Credit Risk Modeling">
                     </div>
-                     <div class="my-col">
-            <div class="my-card port-card">
-                <div class="image">
-                    <img src="./Images/SEOImage2.avif" alt="Credit Risk Modeling">
+                    <h3 class="greet-heading blue-text">Credit Risk Modeling</h3>
+                    <p class="small-para blue-text">Improved risk assessment accuracy by 15% for a bank client, leading to efficient loan approvals.</p>
+                    <a href="https://github.com/shivanigim/credit-risk-model" target="_blank" class="btn ghost-btn">View Project</a>
                 </div>
-                <h3 class="greet-heading blue-text">Credit Risk Modeling</h3>
-                <p class="small-para blue-text">Improved risk assessment accuracy by 15% for a bank client, leading to efficient loan approvals.</p>
+            </div>
+        </div> 
+
+        <!-- Additional row for more projects -->
+        <div class="my-row">
+            <!-- Recommender System -->
+            <div class="my-col"> 
+                <div class="my-card port-card"> 
+                    <div class="image">
+                        <img src="assets/contentImage2.avif" alt="Recommender System">
+                    </div>
+                    <h3 class="greet-heading blue-text">Recommender System</h3>
+                    <p class="small-para blue-text">Boosted cross-selling efficiency by 85% using a hybrid system for a FinTech client.</p>
+                    <a href="https://github.com/shivanigim/recommender-system" target="_blank" class="btn ghost-btn">View Project</a>
+                </div>
+            </div> 
+
+            <!-- Tableau Dashboard for Toys 'R' Us -->
+            <div class="my-col"> 
+                <div class="my-card port-card"> 
+                    <div class="image">
+                        <img src="assets/wordpressImage2.avif" alt="Tableau Dashboard for Toys 'R' Us">
+                    </div>
+                    <h3 class="greet-heading blue-text">Tableau Dashboard</h3>
+                    <p class="small-para blue-text">Created an interactive dashboard for Toys "R" Us, guiding data-driven strategies.</p>
+                    <a href="https://public.tableau.com/app/profile/shivani.singh2677/viz/CompanyAnalysis_Dashboard/Completedashboard" target="_blank" class="btn ghost-btn">View Dashboard</a>
+                </div>
+            </div>
+        </div> 
+    </div> 
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="about"> 
+    <div class="about-text"> 
+        <h1 class="my-heading">About Me</h1> 
+        <p class="lead-para"> 
+            I am Shivani Singh, a hands-on Data Scientist with 5 years of experience. I drive technical expertise, team development, and cross-functional collaboration to deliver impactful solutions.
+            My foundation in analytics, machine learning, and data science helps improve decision-making and operational efficiency across industries.
+        </p> 
+        <p> 
+            With an MS in Applied Analytics from Columbia University and an MBA in Management, I combine technical skills with strategic thinking to lead successful data science projects in AI-driven systems, clinical trials, and financial modeling.
+        </p> 
+    </div> 
+    <div class="about-image"> 
+        <img src="assets/heroImg2.avif" alt="About Image"> <!-- Ensure this image exists in assets folder -->
+    </div> 
+</section>
+
+<!-- Experience Section -->
+<section class="experience" id="experience"> 
+    <div class="experience-heading"> 
+        <h1 class="my-heading text-center">My Experience</h1> 
+    </div> 
+    <div class="experience-content"> 
+        <div class="my-row"> 
+            <!-- Prudential Financial Experience -->
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <h3 class="greet-heading blue-text">Prudential Financial - Data Scientist Lead Intern</h3> 
+                    <p class="small-para">May 2024 - Aug 2024</p> 
+                    <p class="small-para">Developed AI-driven voice assistant, optimized insurance claims processing, expected savings of $1.5M annually.</p>
+                    <p class="small-para">**Skills:** Python, NLP, TensorFlow, AI, RAG agents, Multithreading</p>
+                </div> 
+            </div> 
+
+            <!-- Virtusa Experience -->
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <h3 class="greet-heading blue-text">Virtusa - Senior Data Science Consultant</h3> 
+                    <p class="small-para">Jun 2021 - Jul 2023</p> 
+                    <p class="small-para">Led team to optimize clinical trial audit process, reducing review time by 40%, achieving $1.25M/Year in cost savings.</p>
+                    <p class="small-para">**Skills:** Machine Learning, AWS, Amazon Comprehend, Python, NLP</p>
+                </div> 
+            </div>
+        </div>
+
+        <div class="my-row">
+            <!-- HCL Technologies Experience -->
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <h3 class="greet-heading blue-text">HCL Technologies - Software Analyst</h3> 
+                    <p class="small-para">May 2017 - Jun 2019</p> 
+                    <p class="small-para">Developed customer segmentation model, increasing high-value customer targeting efficiency by 25%.</p>
+                    <p class="small-para">**Skills:** K-means Clustering, Decision Trees, SQL, Data Analysis</p>
+                </div> 
+            </div> 
+
+            <!-- BCG Python Instructor Experience -->
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <h3 class="greet-heading blue-text">BCG - Python Instructor</h3> 
+                    <p class="small-para">May 2024 - Aug 2024</p> 
+                    <p class="small-para">Coached two batches of 20 students each in Python and data structures, leading data science projects.</p>
+                    <p class="small-para">**Skills:** Python, Data Structures, Mentoring, Project Guidance</p>
+                </div> 
             </div>
         </div>
     </div>
-    <!-- Additional row for more projects -->
-    <div class="my-row">
-        <div class="my-col">
-            <div class="my-card port-card">
-                <div class="image">
-                    <img src="./Images/contentImage2.avif" alt="Recommender System">
-                </div>
-                <h3 class="greet-heading blue-text">Recommender System</h3>
-                <p class="small-para blue-text">Boosted cross-selling efficiency by 85% using a hybrid system for a FinTech client.</p>
-            </div>
-        </div>
-        <div class="my-col">
-            <div class="my-card port-card">
-                <div class="image">
-                    <img src="./Images/wordpressImage2.avif" alt="Tableau Dashboard for Toys 'R' Us">
-                </div>
-                <h3 class="greet-heading blue-text">Tableau Dashboard</h3>
-                <p class="small-para blue-text">Created an interactive dashboard for Toys "R" Us, guiding data-driven strategies.</p>
-            </div>
-        </div>
-    </div>
-</div>
+</section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </section> 
-
-    <!-- About Section -->
-    <section id="about" class="about"> 
-        <div class="about-text"> 
-            <h1 class="my-heading">About Me</h1> 
-            <p class="lead-para"> 
-                I am Shivani Singh, a hands-on Data Scientist with 5 years of experience.I drive technical expertise, team development, and cross-functional collaboration to deliver impactful solutions. 
-                My strong foundation in analytics, machine learning, and data science enables me to work across various industries, improving decision-making and operational efficiency.
-
-            </p> 
-            <p> 
-                With an academic background in Applied Analytics (MS) from Columbia University and an MBA in management, I combine technical skills with strategic thinking. I have successfully led data science projects in areas like AI-driven systems, clinical trials, and financial modeling.
-
-            </p> 
-        </div> 
-        <div class="about-image"> 
-            <img src="./Images/heroImg2.avif" alt="About Image"> 
-        </div> 
-    </section> 
-
-    <!-- Services Section -->
-    <section class="services" id="services"> 
-        <div class="services-heading"> 
-            <h1 class="my-heading text-center">My Services</h1> 
-        </div> 
-        <div class="services-content"> 
-            <div class="my-row"> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-paint-brush"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text">Web Design</h3> 
-                        <p class="small-para"> 
-                            Expertise in programming languages like Python, R, and SQL. 
-                            Skilled in using tools such as PySpark, PowerBI, Tableau, 
-                            and AWS for data processing, visualization, and machine learning.
-
-                        </p> 
-                        <p class="small-para"> 
-                            5 years.......
-                        </p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fa-solid fa-code"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                            Web Development 
-                        </h3> 
-                        <p class="small-para"> 
-                            Web development refers to the creating, 
-                            building, and maintaining 
-                            of websites. It includes aspects such as 
-                            web design, web publishing, 
-                            web programming, and database management. 
-                            It is the creation of an 
-                            application that works over the internet 
-                            i.e. websites. 
-                        </p> 
-                        <p class="small-para"> 
-                            Web development refers to the creating, 
-                            building, and maintaining 
-                            of websites. It includes aspects such as 
-                            web design, web publishing, 
-                            web programming, and database management. 
-                            It is the creation of an 
-                            application that works over the internet 
-                            i.e. websites. 
-                        </p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-chart-line"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text">SEO</h3> 
-                        <p class="small-para"> 
-                            Web development refers to the creating, 
-                            building, and maintaining 
-                            of websites. It includes aspects such as 
-                            web design, web publishing, 
-                            web programming, and database management. 
-                            It is the creation of an 
-                            application that works over the internet 
-                            i.e. websites. 
-                        </p> 
-                        <p class="small-para"> 
-                            Web development refers to the creating, 
-                            building, and maintaining 
-                            of websites. It includes aspects such as 
-                            web design, web publishing, 
-                            web programming, and database management. 
-                            It is the creation of an 
-                            application that works over the internet 
-                            i.e. websites. 
-                        </p> 
-                    </div> 
-                </div> 
-            </div> 
-            <div class="my-row"> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-quote-left"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                            Content Writting 
-                        </h3> 
-                        <p class="small-para"> 
-                            Web development refers to the creating, 
-                            building, and maintaining of websites. 
-                            It includes aspects such as web design, 
-                            web publishing, web programming, and 
-                            database management. It is the creation 
-                            of an application that works over the 
-                            internet i.e. websites. 
-                        </p> 
-                        <p class="small-para"> 
-                            Web development refers to the creating, 
-                            building, and maintaining of websites. 
-                            It includes aspects such as web design, 
-                            web publishing, web programming, and 
-                            database management. It is the creation of an 
-                            application that works over the internet i.e. 
-                            websites. 
-                        </p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fab fa-wordpress-simple"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                            WordPress Dev 
-                        </h3> 
-                        <p class="small-para"> 
-                            Web development refers to the creating, 
-                            building, and maintaining of websites. 
-                            It includes aspects such as web design, 
-                            web publishing, web programming, and 
-                            database management. It is the creation 
-                            of an application that works over the 
-                            internet i.e. websites. 
-                        </p> 
-                        <p class="small-para"> 
-                            Web development refers to the creating, 
-                            building, and maintaining 
-                            of websites. It includes aspects such as 
-                            web design, web publishing, 
-                            web programming, and database management. 
-                            It is the creation of an 
-                            application that works over the internet 
-                            i.e. websites. 
-                        </p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-video"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                            Video Editing 
-                        </h3> 
-                        <p class="small-para"> 
-                            Web development refers to the creating, 
-                            building, and maintaining 
-                            of websites. It includes aspects such as 
-                            web design, web publishing, 
-                            web programming, and database management. 
-                            It is the creation of an 
-                            application that works over the internet 
-                            i.e. websites. 
-                        </p> 
-                        <p class="small-para"> 
-                            Web development refers to the creating, 
-                            building, and maintaining 
-                            of websites. It includes aspects such as 
-                            web design, web publishing, 
-                            web programming, and database management. 
-                            It is the creation of an 
-                            application that works over the internet 
-                            i.e. websites. 
-                        </p> 
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-    </section> 
 
     <!-- Contact me section -->
     <section class="contact" id="contact"> 
