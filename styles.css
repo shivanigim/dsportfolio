@@ -165,23 +165,57 @@ body {
 
 .experience .experience-heading {
     margin-bottom: 2rem;
+    text-align: center;
 }
 
-.experience-content .my-card {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 10px;
+.experience-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.my-col {
+    width: 48%;
     margin-bottom: 2rem;
+}
+
+.my-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.experience-details {
+    width: 75%;
+}
+
+.experience-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .experience-content h3 {
     color: #2794B3;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .experience-content p {
     color: #363D73;
 }
+
+@media (max-width: 768px) {
+    .my-col {
+        width: 100%;
+    }
+}
+
+
 
 /* Contact Section */
 .contact {
