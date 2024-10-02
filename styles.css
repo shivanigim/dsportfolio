@@ -172,6 +172,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-width: 1200px; /* Limit content width */
+    margin: 0 auto; /* Center the container */
+    width: 100%; /* Ensure it spans full width */
+    
 }
 
 .my-col {
@@ -186,16 +190,16 @@ body {
     padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: #fff
+    WIDTH:100%;
 }
 
 .experience-details {
-    width: 100%;
+    width: 85%;
 }
 
 .experience-logo {
-    width: 60px;  /* Consistent logo size */
-    height: 60px;
+   width: 15%;
 }
 
 .experience-logo img {
